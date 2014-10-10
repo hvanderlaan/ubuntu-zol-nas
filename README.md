@@ -35,7 +35,7 @@ sudo modprobe zfs
 Creating zfs raidz pool
 =======================
 ```
-sudo zpool create -f ubuntu-zol-nas /dev/sdb /dev/sdc /sev/sdd
+sudo zpool create -f ubuntu-zol-nas raidz /dev/sdb /dev/sdc /sev/sdd
 sudo zpool status
 ```
 Creating zfs datasets
